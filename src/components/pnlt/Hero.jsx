@@ -29,7 +29,7 @@ export default function Hero({ heroImage }) {
           </h1>
 
           <p className="text-white/80 text-lg md:text-xl max-w-2xl leading-relaxed mb-12 font-light">
-            Housing for foreigners is now possible. Your retirement in paradise can finally be worry-free.
+            Long-term residential security for foreigners in the Philippines — legally structured, fully compliant, and built around your right to live here.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

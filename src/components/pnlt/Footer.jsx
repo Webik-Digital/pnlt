@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="font-display text-3xl">PNLT</div>
             <div className="gold-thread w-16 my-5" />
             <p className="text-white/70 leading-relaxed max-w-sm">
-              Philippine New Land Trust provides qualified foreigners with secure, long-term access to residential housing in the Philippines.
+              Philippine New Land Trust provides qualified foreign nationals with legally structured, long-term residential agreements in the Philippines — fully compliant with Philippine law.
             </p>
           </div>
 

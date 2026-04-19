@@ -21,7 +21,7 @@ export default function About() {
           </div>
           <div className="md:col-span-6 md:col-start-7">
             <p className="text-lg md:text-xl leading-[1.7] text-slate-600 font-light">
-              Philippine New Land Trust (PNLT) helps expats turn their dream of living in the Philippines into reality by making long-term housing possible. We provide secure residential opportunities for foreigners who want to enjoy their golden years or build a life here with peace of mind.
+              Philippine New Land Trust (PNLT) helps foreign nationals secure a stable, long-term home in the Philippines through a fully compliant, legally structured residential agreement. We are not a substitute for land ownership — we exist because the law restricts it, and we believe foreigners who choose to build their lives here deserve a secure, honest solution.
             </p>
             <button
               onClick={scrollToContact}

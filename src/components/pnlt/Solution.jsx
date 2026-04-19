@@ -4,11 +4,11 @@ import useReveal from './useReveal';
 import SectionHeading from './SectionHeading';
 
 const items = [
-  { title: 'A Legal, Transparent Housing Path', text: 'PNLT gives expats a fully structured way to secure a home — without skirting the law or risking ownership disputes.' },
-  { title: 'No Circumvention. No Shortcuts. Just Real Support.', text: "We don't push corporations or legal tricks. Instead, we provide a clean, compliant system." },
-  { title: 'Access to More Homes, Not Just Rentals', text: 'With HomeSecure, expats can now choose from homes previously off-limits.' },
-  { title: 'Housing Without Pressure or Emotional Risk', text: 'No need to rush into buying through a partner just to feel secure.' },
-  { title: 'Clear Guidance From People Who Know', text: 'We guide you from day one — no guesswork, no vague advice.' },
+  { title: 'A Legal, Transparent Residential Path', text: 'PNLT gives expats a fully structured, compliant way to secure long-term residential stability — without skirting the law, without workarounds, and without relying on anyone else\'s name.' },
+  { title: 'No Circumvention. No Shortcuts. Just Real Support.', text: "We don't push corporations, nominees, or legal tricks. We acknowledge the law as it stands and operate entirely within it." },
+  { title: 'More Options Beyond Short-Term Rentals', text: 'HomeSecure™ opens a path to long-term residential stability in a home you choose — with the legal structure to back it up.' },
+  { title: 'Housing Without Pressure or Emotional Risk', text: 'No need to put a home under a partner\'s name just to feel settled. Your residential agreement is independent of personal relationships.' },
+  { title: 'Clear Guidance From People Who Know', text: 'We guide you from day one — no guesswork, no vague forum advice, and no surprises.' },
 ];
 
 export default function Solution() {
