@@ -4,25 +4,28 @@ import useReveal from './useReveal';
 import SectionHeading from './SectionHeading';
 
 const forGroups = [
-  { icon: Compass, title: 'Retirees', text: 'Enjoy your golden years with comfort, peace, and true stability.' },
-  { icon: Users, title: 'Expat Families', text: "Build stable homes and secure your family's lasting future." },
-  { icon: Sprout, title: 'Young Expats', text: 'Start early and secure long-term living in the Philippines.' },
+  { icon: Compass, title: 'Retirees', text: 'You chose the Philippines for your golden years and want a real home — not just another rental with rising costs and no permanence.' },
+  { icon: Users, title: 'Expat Families', text: 'You are building a life here and need a stable, secure base for your household — long-term, without relying on someone else\'s name.' },
+  { icon: Sprout, title: 'Long-Term Residents', text: 'Digital nomads, SRRV holders, and long-stay visa holders who treat the Philippines as their permanent base.' },
 ];
 
 const notForGroups = [
-  { icon: TrendingUp, title: 'Property Investors', text: 'Focused on profit, flipping, or rental income.' },
-  { icon: Plane, title: 'Short-Term Visitors', text: 'Seeking vacations or temporary stays.' },
-  { icon: HelpCircle, title: 'Undecided Expats', text: 'Unsure about long-term living in the Philippines.' },
+  { icon: TrendingUp, title: 'Property Investors', text: 'PNLT is not a vehicle for profit, flipping, or rental income. It exists for housing — not speculation.' },
+  { icon: Plane, title: 'Short-Term Visitors', text: 'If you\'re here for a vacation or a temporary stay, this is not the right fit.' },
+  { icon: HelpCircle, title: 'People Seeking a Workaround', text: 'PNLT is not a workaround to own land. It is a structured, legal, residential rights model — nothing more.' },
 ];
 
 function Card({ icon: Icon, title, text, positive }) {
   return (
-    <div className="group bg-white border border-border p-8 hover:border-accent transition-all duration-500 hover:-translate-y-1">
+    <div className={`group bg-white border p-8 transition-all duration-500 hover:-translate-y-1 ${positive ? 'border-green-200 hover:border-green-400' : 'border-red-200 hover:border-red-400'}`}>
       <div className="flex items-center gap-3 mb-5">
-        <div className={`w-10 h-10 flex items-center justify-center ${positive ? 'bg-accent/15 text-accent' : 'bg-slate-100 text-slate-400'}`}>
+        <div className={`w-10 h-10 flex items-center justify-center ${positive ? 'bg-green-50 text-green-600' : 'bg-red-50 text-red-500'}`}>
           <Icon className="w-5 h-5" />
         </div>
-        {positive ? <Check className="w-4 h-4 text-accent" /> : <X className="w-4 h-4 text-slate-400" />}
+        {positive
+          ? <Check className="w-4 h-4 text-green-500" />
+          : <X className="w-4 h-4 text-red-500" />
+        }
       </div>
       <h3 className="font-display text-2xl text-primary mb-3">{title}</h3>
       <p className="text-slate-600 leading-relaxed">{text}</p>

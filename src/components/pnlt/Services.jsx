@@ -10,19 +10,13 @@ export default function Services({ images }) {
   const services = [
     {
       tag: 'HomeSecure™',
-      title: 'Long-term residential rights with full protection.',
+      title: 'Long-term residential rights with full legal protection.',
       image: images.home,
       anchor: 'homesecure',
     },
     {
-      tag: 'LandSecure™',
-      title: 'Secure land use backed by legal structure.',
-      image: images.land,
-      anchor: 'landsecure',
-    },
-    {
       tag: 'TransitionSecure™',
-      title: 'Vetted short-term rentals while finding your home.',
+      title: 'Vetted short-term rentals while you find your permanent home.',
       image: images.transition,
       anchor: 'transitionsecure',
     },
@@ -37,7 +31,7 @@ export default function Services({ images }) {
           subtitle="Flexible solutions designed to give foreigners secure, long-term housing options in the Philippines."
         />
 
-        <div ref={ref} className="reveal grid md:grid-cols-3 gap-6 mt-20">
+        <div ref={ref} className="reveal grid md:grid-cols-2 gap-6 mt-20 max-w-4xl">
           {services.map((s) => (
             <Link
               key={s.tag}
