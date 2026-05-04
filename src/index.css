@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,67 +6,49 @@
 
 @layer base {
   :root {
-    /* PNLT Brand Tokens */
     --background: 0 0% 100%;
-    --foreground: 213 65% 11%;
+    --foreground: 220 45% 18%;
     --card: 0 0% 100%;
-    --card-foreground: 213 65% 11%;
+    --card-foreground: 220 45% 18%;
     --popover: 0 0% 100%;
-    --popover-foreground: 213 65% 11%;
+    --popover-foreground: 220 45% 18%;
 
-    /* Primary = Deep Navy #0A192F */
-    --primary: 213 65% 11%;
+    /* Primary = Deep Navy #1B2A4A */
+    --primary: 220 45% 18%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary = Off-White Canvas #F8FAFC */
-    --secondary: 210 40% 98%;
-    --secondary-foreground: 213 65% 11%;
+    /* Secondary = Very Light Gray #F8F9FA */
+    --secondary: 210 17% 98%;
+    --secondary-foreground: 220 45% 18%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 35%;
+    --muted: 210 17% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    /* Accent = Gold #C5A059 */
-    --accent: 40 46% 56%;
-    --accent-foreground: 213 65% 11%;
+    /* Accent = Gold/Amber #D4A843 */
+    --accent: 42 66% 55%;
+    --accent-foreground: 220 45% 18%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 40 46% 56%;
+    --border: 214 20% 90%;
+    --input: 214 20% 90%;
+    --ring: 42 66% 55%;
 
-    --radius: 0.25rem;
+    --radius: 0.375rem;
 
     --font-display: 'Fraunces', ui-serif, Georgia, serif;
-    --font-sans: 'Inter Tight', ui-sans-serif, system-ui, sans-serif;
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 
-    --pnlt-navy: 213 65% 11%;
-    --pnlt-gold: 40 46% 56%;
-    --pnlt-slate: 215 25% 27%;
-    --pnlt-canvas: 210 40% 98%;
+    --pnlt-navy: 220 45% 18%;
+    --pnlt-gold: 42 66% 55%;
+    --pnlt-gray: 210 17% 98%;
+    --pnlt-text: 215 16% 47%;
   }
 
   .dark {
-    --background: 213 65% 11%;
+    --background: 220 45% 18%;
     --foreground: 0 0% 98%;
-    --card: 213 65% 11%;
-    --card-foreground: 0 0% 98%;
-    --popover: 213 65% 11%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 213 65% 11%;
-    --secondary: 215 30% 18%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 215 30% 18%;
-    --muted-foreground: 215 20% 65%;
-    --accent: 40 46% 56%;
-    --accent-foreground: 213 65% 11%;
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 215 30% 18%;
-    --input: 215 30% 18%;
-    --ring: 40 46% 56%;
   }
 }
 
@@ -80,27 +62,18 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
-    font-feature-settings: "ss01", "cv11";
     -webkit-font-smoothing: antialiased;
   }
   h1, h2, h3, h4, .font-display {
     font-family: var(--font-display);
-    letter-spacing: -0.02em;
   }
 }
 
 @layer utilities {
   .font-display { font-family: var(--font-display); }
   .font-sans { font-family: var(--font-sans); }
-
-  .gold-thread {
-    background: linear-gradient(90deg, transparent, hsl(var(--pnlt-gold)), transparent);
-    height: 1px;
-  }
-
   .text-balance { text-wrap: balance; }
 
-  /* Honeypot — visually hidden but accessible to bots */
   .honeypot {
     position: absolute !important;
     left: -9999px !important;
@@ -113,8 +86,8 @@
 
   .reveal {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: translateY(18px);
+    transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1), transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
   }
   .reveal.in-view {
     opacity: 1;
