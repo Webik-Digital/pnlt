@@ -4,7 +4,7 @@ import { AlertTriangle, Building2, Home, Heart, MessageCircleWarning, ArrowRight
 import useReveal from '@/components/pnlt/useReveal';
 
 const problems = [
-  { icon: AlertTriangle, title: 'Illegal Land Arrangements', text: "Using a Filipino's name to buy property may seem like a solution, but it leaves the foreigner with zero legal protection if anything goes wrong." },
+  { icon: AlertTriangle, title: 'Illegal Land Arrangements', text: "A Filipino buying property isn't illegal. But when the foreigner expects equity, appreciation, or profit from it — that's circumvention, and courts will void the arrangement entirely." },
   { icon: Building2, title: 'Dummy Corporations', text: 'Some agents push foreigners into forming 60/40 corporations just to buy a home — often costly, legally questionable, and flagged as dummy setups under Philippine law.' },
   { icon: Home, title: 'Rental-Only Existence', text: 'Most expats get stuck in short-term rentals with rising rates, no modification rights, and no sense of permanence or stability.' },
   { icon: Heart, title: "Buying Under a Partner's Name", text: "Many foreigners buy property under a Filipino partner's name. If the relationship ends, the foreigner legally owns nothing — even if they paid for everything." },

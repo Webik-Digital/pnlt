@@ -13,10 +13,10 @@ export default function HeroSection() {
               Established 2025 · Cebu, Philippines
             </div>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-navy leading-tight mb-6">
-              Finally — A Legal Way for Foreigners to Secure a Home in the Philippines
+              A Legal Way for Foreigners to Secure a Home in the Philippines
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-10 max-w-xl">
-              Philippine New Land Trust provides expats with long-term residential housing rights through HomeSecure™ — a legally structured, transparent, and fully compliant program. No shortcuts. No legal gray areas. Just real security.
+              Philippine New Land Trust provides expats with long-term residential housing rights through HomeSecure — a legally structured, transparent, and fully compliant program. No shortcuts. No legal gray areas. Just real security.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -32,7 +32,7 @@ export default function HeroSection() {
                 onClick={() => scrollTo('homesecure')}
                 className="inline-flex items-center justify-center gap-2 h-13 px-8 py-3.5 border-2 border-navy text-navy text-base font-semibold rounded hover:bg-navy hover:text-white transition-colors"
               >
-                How HomeSecure™ Works
+                How HomeSecure Works
               </button>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function HeroSection() {
             <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-5 max-w-xs">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-3 h-3 rounded-full bg-green-400"></div>
-                <span className="text-xs font-semibold text-navy uppercase tracking-wider">HomeSecure™ Active</span>
+                <span className="text-xs font-semibold text-navy uppercase tracking-wider">HomeSecure Active</span>
               </div>
               <p className="text-sm text-muted-foreground">Legally structured residential agreements for qualified foreigners</p>
             </div>

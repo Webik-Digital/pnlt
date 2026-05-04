@@ -4,10 +4,10 @@ import { Check, X, AlertTriangle, ArrowRight } from 'lucide-react';
 import useReveal from '@/components/pnlt/useReveal';
 
 const steps = [
-  { n: '01', title: 'Free Consultation', desc: "Book a free video call or in-person meeting. We'll learn about your situation, answer your questions, and determine if HomeSecure™ is right for you." },
+  { n: '01', title: 'Free Consultation', desc: "Book a free video call or in-person meeting. We'll learn about your situation, answer your questions, and determine if HomeSecure is right for you." },
   { n: '02', title: 'Qualification & Onboarding', desc: "Once qualified, we'll explain the legal structure, documentation, and your rights and protections." },
   { n: '03', title: 'Home Selection', desc: "Choose from available properties, or let us help match you based on location, budget, and lifestyle." },
-  { n: '04', title: 'Legal Structuring & Documentation', desc: "Our legal team sets up your HomeSecure™ arrangement with full, transparent documentation." },
+  { n: '04', title: 'Legal Structuring & Documentation', desc: "Our legal team sets up your HomeSecure arrangement with full, transparent documentation." },
   { n: '05', title: 'Move In & Live With Confidence', desc: "Move into your home with long-term security, legal documentation, and ongoing PNLT support." },
 ];
 
@@ -15,7 +15,6 @@ const benefits = [
   { title: 'Legally Compliant', desc: 'No law circumvention. No gray areas. Fully within Philippine law.' },
   { title: 'Long-Term Security', desc: 'Not a rental. Structured, long-term residential rights.' },
   { title: 'Full Documentation', desc: 'Every arrangement backed by clear legal docs — not handshakes.' },
-  { title: 'No Need for a Nominee', desc: "No putting a home under someone else's name." },
   { title: 'Freedom to Choose', desc: 'Access residential homes in locations you choose.' },
   { title: 'Ongoing Support', desc: 'PNLT provides guidance for the duration of your arrangement.' },
 ];
@@ -42,7 +41,7 @@ export default function HomeSecureSection() {
         <div className="text-center mb-16">
           <div className="text-[11px] uppercase tracking-widest text-gold font-semibold mb-4">Our Flagship Program</div>
           <h2 className="font-display text-4xl md:text-5xl text-navy leading-tight mb-5">
-            HomeSecure™ — Your Legal Path to a Real Home in the Philippines
+            HomeSecure — Your Legal Residential Pathway to a Real Home in the Philippines
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             The flagship program of Philippine New Land Trust. Designed specifically for foreigners who want long-term residential security — legally, safely, and with full protection.
@@ -51,15 +50,15 @@ export default function HomeSecureSection() {
 
         {/* What is HomeSecure */}
         <div className="bg-white rounded-xl p-8 md:p-10 shadow-sm mb-12">
-          <div className="text-[11px] uppercase tracking-widest text-gold font-semibold mb-3">What is HomeSecure™?</div>
+          <div className="text-[11px] uppercase tracking-widest text-gold font-semibold mb-3">What is HomeSecure?</div>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            HomeSecure™ is PNLT's core residential program that provides qualified foreigners with long-term rights to live in a home in the Philippines. It is built on a legally compliant trust structure that protects the expat's residential interest without violating Philippine land ownership laws. Unlike risky workarounds or informal arrangements, HomeSecure™ is transparent, documented, and designed to stand the test of time.
+            HomeSecure is PNLT's core residential program that provides qualified foreigners with long-term rights to live in a home in the Philippines. It is built on a legally compliant structure that protects the expat's residential pathway without violating Philippine land ownership laws. Unlike risky workarounds or informal arrangements, HomeSecure is transparent, documented, and designed to stand the test of time.
           </p>
         </div>
 
         {/* Steps */}
         <div ref={ref} className="reveal mb-14">
-          <h3 className="font-display text-2xl text-navy mb-8 text-center">How HomeSecure™ Works</h3>
+          <h3 className="font-display text-2xl text-navy mb-8 text-center">How HomeSecure Works</h3>
           <div className="space-y-4">
             {steps.map((s) => (
               <div key={s.n} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm items-start">
@@ -101,7 +100,7 @@ export default function HomeSecureSection() {
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-100">
                   <th className="px-4 py-3 text-left text-sm font-semibold text-navy">Feature</th>
-                  <th className="px-4 py-3 text-left text-sm font-semibold text-gold">HomeSecure™</th>
+                  <th className="px-4 py-3 text-left text-sm font-semibold text-gold">HomeSecure</th>
                   <th className="px-4 py-3 text-left text-sm font-semibold text-navy">Partner's Name</th>
                   <th className="px-4 py-3 text-left text-sm font-semibold text-navy">Dummy Corp</th>
                   <th className="px-4 py-3 text-left text-sm font-semibold text-navy">Renting</th>
@@ -136,7 +135,7 @@ export default function HomeSecureSection() {
             to="/resources?category=homesecure-explained"
             className="text-gold font-semibold hover:underline text-sm"
           >
-            Read More About HomeSecure™ →
+            Read More About HomeSecure →
           </Link>
         </div>
       </div>

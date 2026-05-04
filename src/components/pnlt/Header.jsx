@@ -29,9 +29,7 @@ export default function Header() {
 
           <nav className="hidden md:flex items-center gap-8">
             <Link to="/" className={navLinkCls}>Home</Link>
-            <button onClick={() => scrollTo('homesecure')} className={navLinkCls}>HomeSecure™</button>
             <Link to="/resources" className={navLinkCls}>Learn More</Link>
-            <button onClick={() => scrollTo('contact')} className={navLinkCls}>Contact Us</button>
             <a
               href="https://calendly.com/pnlt"
               target="_blank"
@@ -54,9 +52,7 @@ export default function Header() {
         {open && (
           <div className="md:hidden pb-5 pt-2 space-y-3 border-t border-gray-100">
             <Link to="/" onClick={() => setOpen(false)} className="block text-navy font-medium py-2">Home</Link>
-            <button onClick={() => scrollTo('homesecure')} className="block text-navy font-medium py-2 w-full text-left">HomeSecure™</button>
             <Link to="/resources" onClick={() => setOpen(false)} className="block text-navy font-medium py-2">Learn More</Link>
-            <button onClick={() => scrollTo('contact')} className="block text-navy font-medium py-2 w-full text-left">Contact Us</button>
             <a
               href="https://calendly.com/pnlt"
               target="_blank"
