@@ -33,17 +33,17 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="md:col-span-3 space-y-3 text-sm">
+          <div className="md:col-span-3 space-y-3 text-sm hidden">
             
-            <a href="#" className="block text-white/80 hover:text-accent transition-colors">For PNLT Accredited Partners</a>
-            <a href="#" className="block text-white/80 hover:text-accent transition-colors">Be a PNLT YouTube Partner</a>
-            <a href="#" className="block text-white/80 hover:text-accent transition-colors">Press Release and Media</a>
+            <a href="#" className="block text-white/80 hover:text-accent transition-colors hidden">For PNLT Accredited Partners</a>
+            <a href="#" className="block text-white/80 hover:text-accent transition-colors hidden">Be a PNLT YouTube Partner</a>
+            <a href="#" className="block text-white/80 hover:text-accent transition-colors hidden">Press Release and Media</a>
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-8 text-xs text-white/50">
           <div>© {new Date().getFullYear()} Philippine New Land Trust. All rights reserved.</div>
-          <div className="tracking-[0.15em] uppercase">Structural Serenity · Legal Security</div>
+          <div className="tracking-[0.15em] uppercase hidden">Structural Serenity · Legal Security</div>
         </div>
       </div>
     </footer>);
