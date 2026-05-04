@@ -34,7 +34,7 @@ export default function Footer() {
           </div>
 
           <div className="md:col-span-3 space-y-3 text-sm">
-            <div className="text-[11px] uppercase tracking-[0.2em] text-accent mb-4">Partners</div>
+            <div className="text-[11px] uppercase tracking-[0.2em] text-accent mb-4 hidden">Partners</div>
             <a href="#" className="block text-white/80 hover:text-accent transition-colors">For PNLT Accredited Partners</a>
             <a href="#" className="block text-white/80 hover:text-accent transition-colors">Be a PNLT YouTube Partner</a>
             <a href="#" className="block text-white/80 hover:text-accent transition-colors">Press Release and Media</a>
