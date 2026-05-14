@@ -10,7 +10,7 @@ export default function Footer() {
             <img
               src="https://media.base44.com/images/public/69f95de45f65220f9c4a6955/473c991e5_PNLT-Logo-scaled.jpg"
               alt="Philippine New Land Trust"
-              className="h-16 w-auto object-contain brightness-0 invert"
+              className="h-16 w-auto object-contain"
             />
             <div className="gold-thread w-16 my-5" />
             <p className="text-white/70 leading-relaxed max-w-sm text-sm">Philippine New Land Trust provides qualified foreigners with legally structured, long-term residential pathway in the Philippines — fully compliant with Philippine law.
