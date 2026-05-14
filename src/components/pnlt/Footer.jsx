@@ -47,7 +47,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 pt-8 text-xs text-white/50">
           <div>© {new Date().getFullYear()} Philippine New Land Trust. All rights reserved.</div>
-          
+          <div>Website by <a href="https://webik.com" target="_blank" rel="noopener noreferrer" className="hover:text-white/80 transition-colors">Webik</a></div>
         </div>
       </div>
     </footer>);
