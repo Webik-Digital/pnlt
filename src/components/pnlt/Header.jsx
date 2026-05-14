@@ -20,11 +20,12 @@ export default function Header() {
     <header className="fixed top-8 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="font-display text-2xl font-semibold text-navy">PNLT</span>
-            <span className="hidden sm:block text-[10px] uppercase tracking-widest text-muted-foreground ml-1">
-              Philippine New Land Trust
-            </span>
+          <Link to="/" className="flex items-center">
+            <img
+              src="https://media.base44.com/images/public/69f95de45f65220f9c4a6955/473c991e5_PNLT-Logo-scaled.jpg"
+              alt="Philippine New Land Trust"
+              className="h-12 w-auto object-contain"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
