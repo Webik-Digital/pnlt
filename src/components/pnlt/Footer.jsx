@@ -7,7 +7,11 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
         <div className="grid md:grid-cols-12 gap-12 pb-16 border-b border-white/10">
           <div className="md:col-span-5">
-            <div className="font-display text-3xl">PNLT</div>
+            <img
+              src="https://media.base44.com/images/public/69f95de45f65220f9c4a6955/473c991e5_PNLT-Logo-scaled.jpg"
+              alt="Philippine New Land Trust"
+              className="h-16 w-auto object-contain brightness-0 invert"
+            />
             <div className="gold-thread w-16 my-5" />
             <p className="text-white/70 leading-relaxed max-w-sm text-sm">Philippine New Land Trust provides qualified foreigners with legally structured, long-term residential pathway in the Philippines — fully compliant with Philippine law.
 
