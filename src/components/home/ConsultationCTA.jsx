@@ -25,7 +25,7 @@ export default function ConsultationCTA() {
               Speak directly with our team to ask questions and explore your options. Video call or in-person — no pressure, no obligation.
             </p>
             <a
-              href="https://calendly.com/pnlt"
+              href="https://cal.id/carl-foster/consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gold text-navy px-8 py-4 rounded font-bold text-lg hover:bg-gold/90 transition-colors mb-6"

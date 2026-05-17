@@ -32,7 +32,7 @@ export default function Header() {
             <Link to="/" className={navLinkCls}>Home</Link>
             <Link to="/resources" className={navLinkCls}>Learn More</Link>
             <a
-              href="https://calendly.com/pnlt"
+              href="https://cal.id/carl-foster/consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center h-10 px-5 bg-gold text-navy text-sm font-semibold rounded hover:bg-gold/90 transition-colors"
@@ -55,7 +55,7 @@ export default function Header() {
             <Link to="/" onClick={() => setOpen(false)} className="block text-navy font-medium py-2">Home</Link>
             <Link to="/resources" onClick={() => setOpen(false)} className="block text-navy font-medium py-2">Learn More</Link>
             <a
-              href="https://calendly.com/pnlt"
+              href="https://cal.id/carl-foster/consultation"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center h-10 px-5 bg-gold text-navy text-sm font-semibold rounded"

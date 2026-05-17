@@ -20,7 +20,7 @@ export default function HeroSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://calendly.com/pnlt"
+                href="https://cal.id/carl-foster/consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 h-13 px-8 py-3.5 bg-gold text-navy text-base font-semibold rounded hover:bg-gold/90 transition-colors"

@@ -76,7 +76,7 @@ export default function Resources() {
               <h3 className="font-display text-2xl text-navy">Have questions? Our team is ready to help.</h3>
               <div className="flex gap-3 shrink-0">
                 <a
-                  href="https://calendly.com/pnlt"
+                  href="https://cal.id/carl-foster/consultation"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-gold text-navy px-5 py-2.5 rounded font-semibold text-sm hover:bg-gold/90 transition-colors"
@@ -181,7 +181,7 @@ export default function Resources() {
                 <h3 className="font-display text-2xl text-navy">Have questions? Our team is ready to help.</h3>
                 <div className="flex gap-3 shrink-0">
                   <a
-                    href="https://calendly.com/pnlt"
+                    href="https://cal.id/carl-foster/consultation"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-gold text-navy px-5 py-2.5 rounded font-semibold text-sm hover:bg-gold/90 transition-colors"
